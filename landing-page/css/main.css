@@ -1,0 +1,41 @@
+/************************************************************************
+   ___ _                          _               
+  / __\ |__   __ _ _ __ __ _  ___| |__   ___  ___ 
+ / /  | '_ \ / _` | '__/ _` |/ _ \ '_ \ / _ \/ _ \
+/ /___| | | | (_| | | | (_| |  __/ |_) |  __/  __/
+\____/|_| |_|\__,_|_|  \__, |\___|_.__/ \___|\___|
+                       |___/                      
+
+/*********************** Commenting is sexy ******************************/
+/*********************** Write your styles below *************************/
+/*css reset*/
+*,::before,::after{box-sizing:border-box}
+ul[class],ol[class]{padding:0}
+body,h1,h2,h3,h4,p,ul[class],ol[class],li,figure,figcaption,blockquote,dl,dd{margin:0}
+body{min-height:100vh;scroll-behavior:smooth;text-rendering:optimizeSpeed;line-height:1.5}
+ul[class],ol[class]{list-style:none}
+a:not([class]){text-decoration-skip-ink:auto}
+img{max-width:100%;display:block}
+article > * + *{margin-top:1em}
+input,button,textarea,select{font:inherit}
+/*css reset*/
+
+
+
+/* Mobile first queries */
+
+/* Larger than mobile */
+@media (min-width: 400px) {}
+
+/* Larger than phablet */
+@media (min-width: 550px) {}
+
+/* Larger than tablet */
+@media (min-width: 750px) {}
+
+/* Larger than desktop */
+@media (min-width: 1000px) {}
+
+/* Larger than Desktop HD */
+@media (min-width: 1200px) {}
+
