@@ -1,0 +1,129 @@
+/************************************************************************
+   ___ _                          _               
+  / __\ |__   __ _ _ __ __ _  ___| |__   ___  ___ 
+ / /  | '_ \ / _` | '__/ _` |/ _ \ '_ \ / _ \/ _ \
+/ /___| | | | (_| | | | (_| |  __/ |_) |  __/  __/
+\____/|_| |_|\__,_|_|  \__, |\___|_.__/ \___|\___|
+                       |___/                      
+
+/*********************** Commenting is sexy ******************************/
+/*********************** Write your styles below *************************/
+/*css reset*/
+*,::before,::after{box-sizing:border-box}
+ul[class],ol[class]{padding:0}
+body,h1,h2,h3,h4,p,ul[class],ol[class],li,figure,figcaption,blockquote,dl,dd{margin:0}
+body{min-height:100vh;scroll-behavior:smooth;text-rendering:optimizeSpeed;line-height:1.5}
+ul[class],ol[class]{list-style:none}
+a:not([class]){text-decoration-skip-ink:auto}
+img{max-width:100%;display:block}
+article > * + *{margin-top:1em}
+input,button,textarea,select{font:inherit}
+:focus{outline: none !important;}
+/*css reset*/
+
+/*fonts*/
+@font-face {font-family: 'proximanovabold';src: url('../fonts/proximanovabold.eot');src: url('../fonts/proximanovabold.eot?#iefix') format('embedded-opentype'),url('../fonts/proximanovabold.woff2') format('woff2'),url('../fonts/ProximaNova-Bold.svg#ProximaNova-Bold') format('svg'),url('../fonts/ProximaNova-Bold.ttf') format('truetype'),url('../fonts/ProximaNova-Bold.woff') format('woff');font-weight: normal;font-style: normal;}
+@font-face {font-family: 'proxima-nova-extrabold';src: url('../fonts/proxima-nova-extrabold.eot');src: url('../fonts/proxima-nova-extrabold.eot?#iefix') format('embedded-opentype'),url('../fonts/proxima-nova-extrabold.woff2') format('woff2'),url('../fonts/ProximaNova-Extrabld.svg#ProximaNova-Extrabld') format('svg'),url('../fonts/ProximaNova-Extrabld.ttf') format('truetype'),url('../fonts/ProximaNova-Extrabld.woff') format('woff');font-weight: normal;font-style: normal;}
+@font-face {font-family: 'proximanovalight';src: url('../fonts/proximanovalight.eot');src: url('../fonts/proximanovalight.eot?#iefix') format('embedded-opentype'),url('../fonts/proximanovalight.woff2') format('woff2'),url('../fonts/ProximaNova-Light.svg#ProximaNova-Light') format('svg'),url('../fonts/ProximaNova-Light.ttf') format('truetype'),url('../fonts/ProximaNova-Light.woff') format('woff');font-weight: normal;font-style: normal;}
+@font-face {font-family: 'proximanovaregular';src: url('../fonts/proximanovaregular.eot');src: url('../fonts/proximanovaregular.eot?#iefix') format('embedded-opentype'),url('../fonts/proximanovaregular.woff2') format('woff2'),url('../fonts/ProximaNova-Regular.svg#ProximaNova-Regular') format('svg'),url('../fonts/ProximaNova-Regular.ttf') format('truetype'),url('../fonts/ProximaNova-Regular.woff') format('woff');font-weight: normal;font-style: normal;}
+@font-face {font-family: 'proximanova-semibold';src: url('../fonts/proximanova-semibold-webfont.eot');src: url('../fonts/proximanova-semibold-webfont.eot?#iefix') format('embedded-opentype'),url('../fonts/proximanova-semibold-webfont.woff2') format('woff2'),url('../fonts/ProximaNova-Semibold.svg#ProximaNova-Semibold') format('svg'),url('../fonts/ProximaNova-Semibold.ttf') format('truetype'),url('../fonts/ProximaNova-Semibold.woff') format('woff');font-weight: normal;font-style: normal;}
+@font-face {font-family: 'ProximaNova-LightIt';src: url('../fonts/ProximaNova-LightIt.eot');src: url('../fonts/ProximaNova-LightIt.eot?#iefix') format('embedded-opentype'),url('../fonts/ProximaNova-LightIt.svg#ProximaNova-LightIt') format('svg'),url('../fonts/ProximaNova-LightIt.ttf') format('truetype'),url('../fonts/ProximaNova-LightIt.woff') format('woff'),url('../fonts/ProximaNova-LightIt.woff2') format('woff2');font-weight: normal;font-style: normal;}
+/*fonts*/
+
+/* subscription section*/
+section.subscription {padding: 50px 0px;text-align: center;}
+section.subscription h1{color: #525252;font-family: 'proximanova-semibold';text-transform: uppercase;margin: 10px 0 20px;padding: 0 70px;text-align: center;}	
+section.subscription p{color: #525252;font-family: 'proximanovalight';font-size: 18px;color: #666666;line-height: 134%;margin: 0 0 15px;text-align: center;padding: 0 85px;}
+.icon-row {padding: 35px 15px;overflow: auto;clear: both;}
+.icon-row ul {list-style: none;margin: 0;padding: 0;}
+.icon-row ul li{display: inline-block;float: left;width: 125px}
+.icon-row ul li:first-child{font-family: 'proximanova-semibold';font-size: 18px;color: #8AB5D5;text-transform: uppercase;padding: 45px 0 0;}	
+.icon-row ul li img{width: 125px;height: 125px;}	
+.icon-row ul li:last-child{font-family: 'proximanova-semibold';font-size: 18px;color: #CFA622;text-transform: uppercase;padding: 35px 0 0;}	
+button.btn.signup {background: #06c587;box-shadow: inset 0px -4px #04af78;font-family: 'proximanova-semibold';font-size: 18px;color: #fff;text-shadow: 0px -2px rgba(0,0,0,.10);text-transform: uppercase;display: inline-block;padding: 15px 25px;margin: 15px 0 0;}
+/* subscription section*/
+
+/*red band */
+section.red-band {
+    background: #fb4b4b;
+    padding: 20px;
+}
+section.red-band h3{color: #f6f8fc;color: #fff;text-align: center;padding: 0 35px;}
+.steps-slider {
+    width: 100%;
+    overflow: auto;
+    margin: 25px 0 0;
+}
+.steps-slider ul{list-style: none;margin: 0;padding: 0;display: table;overflow-x:scroll; }
+.steps-slider ul li {
+    display: inline-block;
+    float: left;
+    background: transparent;
+    border: 1px solid #f6f8fc;
+    border-radius: 25px;
+    font-size: 19px;
+    color: rgba(246, 248, 252, .8);
+    padding: 10px 25px;font-family: 'proximanovalight';
+}
+.steps-slider ul li:last-child {
+    background: #f6f8fc;
+    border: 1px solid #f6f8fc;
+    border-radius: 25px;
+    font-size: 19px;
+    color: #0f334f;
+    padding: 10px 25px;font-family: 'proximanova-semibold';
+}
+/*red band */
+
+/*recurring billing*/
+section.recurring-billing {padding: 80px 0px;}
+section.recurring-billing h2{font-family: 'proximanova-semibold';font-size: 32px;color: #525252;}
+section.recurring-billing h4{font-family: 'proximanova-semibold';font-size: 32px;color: #333333;line-height: 134%}
+section.recurring-billing p{font-family: 'proximanovaregular';font-size: 16px;color: #525252;}
+section.recurring-billing ul li{padding-left: 20px;background: url(../images/);}
+/*recurring billing*/
+
+
+/*partner logo*/
+section.patner-logo{padding: 100px 0;background:#27292f; }
+section.patner-logo ul{list-style: none;margin: 0;padding: 0;}
+section.patner-logo ul li img{width: auto;height: auto;}
+/*partner logo*/
+
+/*footer*/
+section.footer {
+    background: #fff;
+    padding: 50px 0px;
+}
+
+section.footer ul {
+	list-style: none;margin: 0;padding: 0
+}
+section.footer ul li{
+	display: block;text-align: center;font-size: 12px;color: #222222;font-family: 'proximanovalight';margin: 0 auto;text-transform: uppercase;
+}
+section.footer ul li img{ 
+	text-align: center;margin: 0 auto;width: 100px
+}
+
+
+/*footer*/
+
+
+/* Mobile first queries */
+
+/* Larger than mobile */
+@media (min-width: 400px) {}
+
+/* Larger than phablet */
+@media (min-width: 550px) {}
+
+/* Larger than tablet */
+@media (min-width: 750px) {}
+
+/* Larger than desktop */
+@media (min-width: 1000px) {}
+
+/* Larger than Desktop HD */
+@media (min-width: 1200px) {}
+
