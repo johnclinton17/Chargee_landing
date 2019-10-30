@@ -11,7 +11,7 @@
 /*css reset*/
 *,::before,::after{box-sizing:border-box}
 ul[class],ol[class]{padding:0}
-body,h1,h2,h3,h4,p,ul[class],ol[class],li,figure,figcaption,blockquote,dl,dd{margin:0}
+body,h1,h2,h3,h4,p,ul[class],ol[class],li,figure,figcaption,blockquote,dl,dd{margin:0;font-family: 'proximanovaregular';}
 body{min-height:100vh;scroll-behavior:smooth;text-rendering:optimizeSpeed;line-height:1.5}
 ul[class],ol[class]{list-style:none}
 a:not([class]){text-decoration-skip-ink:auto}
@@ -78,9 +78,39 @@ section.red-band h3{color: #f6f8fc;color: #fff;text-align: center;padding: 0 35p
 /*recurring billing*/
 section.recurring-billing {padding: 80px 0px;}
 section.recurring-billing h2{font-family: 'proximanova-semibold';font-size: 32px;color: #525252;}
-section.recurring-billing h4{font-family: 'proximanova-semibold';font-size: 32px;color: #333333;line-height: 134%}
+section.recurring-billing h4{font-family: 'proximanova-semibold';color: #333333;line-height: 134%;text-transform: uppercase;}
 section.recurring-billing p{font-family: 'proximanovaregular';font-size: 16px;color: #525252;}
-section.recurring-billing ul li{padding-left: 20px;background: url(../images/);}
+section.recurring-billing ul li{padding-left: 25px;position: relative;}
+section.recurring-billing ul li:before{position: absolute;left: 0;top: 0px;content: "\f00c";display: block;font-family: 'FontAwesome';font-size: 16px;color: #6e78b4}
+
+.customers-testimonials{margin: 30px 0 0}
+.customers-testimonials h4{font-family: 'proximanovalight';color: #525252;line-height: 120%;margin: 0 0 30px}
+.customers-testimonials p{color: #646464;line-height: 150%;font-size: 16px}
+.logo {
+    width: 40px;
+    height: 40px;
+    float: left;
+}
+
+.author-name {
+    width: calc(100% - 40px);
+    float: left;
+}
+.author-name h5{
+    font-family: 'proximanova-semibold';color: #636363
+}
+.author-name a{
+    font-family: 'proximanova-semibold';color: #06c587;font-size: 14px;line-height: 160%;
+}
+
+.testimonials-head {
+    clear: both;
+    overflow: auto;
+}
+
+.testimonials-content{
+    color: #646464;line-height: 150%;font-size: 16px;line-height: 150%
+}
 /*recurring billing*/
 
 /*partner logo*/
