@@ -25,9 +25,12 @@ input,button,textarea,select{font:inherit}
 @font-face {font-family: 'proximanovabold';src: url('../fonts/proximanovabold.eot');src: url('../fonts/proximanovabold.eot?#iefix') format('embedded-opentype'),url('../fonts/proximanovabold.woff2') format('woff2'),url('../fonts/ProximaNova-Bold.svg#ProximaNova-Bold') format('svg'),url('../fonts/ProximaNova-Bold.ttf') format('truetype'),url('../fonts/ProximaNova-Bold.woff') format('woff');font-weight: normal;font-style: normal;}
 @font-face {font-family: 'proxima-nova-extrabold';src: url('../fonts/proxima-nova-extrabold.eot');src: url('../fonts/proxima-nova-extrabold.eot?#iefix') format('embedded-opentype'),url('../fonts/proxima-nova-extrabold.woff2') format('woff2'),url('../fonts/ProximaNova-Extrabld.svg#ProximaNova-Extrabld') format('svg'),url('../fonts/ProximaNova-Extrabld.ttf') format('truetype'),url('../fonts/ProximaNova-Extrabld.woff') format('woff');font-weight: normal;font-style: normal;}
 @font-face {font-family: 'proximanovalight';src: url('../fonts/proximanovalight.eot');src: url('../fonts/proximanovalight.eot?#iefix') format('embedded-opentype'),url('../fonts/proximanovalight.woff2') format('woff2'),url('../fonts/ProximaNova-Light.svg#ProximaNova-Light') format('svg'),url('../fonts/ProximaNova-Light.ttf') format('truetype'),url('../fonts/ProximaNova-Light.woff') format('woff');font-weight: normal;font-style: normal;}
-@font-face {font-family: 'proximanovaregular';src: url('../fonts/proximanovaregular.eot');src: url('../fonts/proximanovaregular.eot?#iefix') format('embedded-opentype'),url('../fonts/proximanovaregular.woff2') format('woff2'),url('../fonts/ProximaNova-Regular.svg#ProximaNova-Regular') format('svg'),url('../fonts/ProximaNova-Regular.ttf') format('truetype'),url('../fonts/ProximaNova-Regular.woff') format('woff');font-weight: normal;font-style: normal;}
 @font-face {font-family: 'proximanova-semibold';src: url('../fonts/proximanova-semibold-webfont.eot');src: url('../fonts/proximanova-semibold-webfont.eot?#iefix') format('embedded-opentype'),url('../fonts/proximanova-semibold-webfont.woff2') format('woff2'),url('../fonts/ProximaNova-Semibold.svg#ProximaNova-Semibold') format('svg'),url('../fonts/ProximaNova-Semibold.ttf') format('truetype'),url('../fonts/ProximaNova-Semibold.woff') format('woff');font-weight: normal;font-style: normal;}
 @font-face {font-family: 'ProximaNova-LightIt';src: url('../fonts/ProximaNova-LightIt.eot');src: url('../fonts/ProximaNova-LightIt.eot?#iefix') format('embedded-opentype'),url('../fonts/ProximaNova-LightIt.svg#ProximaNova-LightIt') format('svg'),url('../fonts/ProximaNova-LightIt.ttf') format('truetype'),url('../fonts/ProximaNova-LightIt.woff') format('woff'),url('../fonts/ProximaNova-LightIt.woff2') format('woff2');font-weight: normal;font-style: normal;}
+@font-face {font-family: 'proximanovaregular';src: url('../fonts/ProximaNova-Regular.eot');src: url('../fonts/ProximaNova-Regular.eot?#iefix') format('embedded-opentype'),url('../fonts/ProximaNova-Regular.woff2') format('woff2'),url('../fonts/ProximaNova-Regular.svg#ProximaNova-Regular') format('svg'),url('../fonts/ProximaNova-Regular.ttf') format('truetype'),url('../fonts/ProximaNova-Regular.woff') format('woff');font-weight: normal;font-style: normal;}
+
+
+
 /*fonts*/
 
 /* subscription section*/
@@ -79,13 +82,14 @@ section.red-band h3{color: #f6f8fc;color: #fff;text-align: center;padding: 0 35p
 section.recurring-billing {padding: 80px 0px;}
 section.recurring-billing h2{font-family: 'proximanova-semibold';font-size: 32px;color: #525252;}
 section.recurring-billing h4{font-family: 'proximanova-semibold';color: #333333;line-height: 134%;text-transform: uppercase;}
-section.recurring-billing p{font-family: 'proximanovaregular';font-size: 16px;color: #525252;}
+.content-billing p{font-family: 'proximanovaregular';font-size: 16px;color: #525252;}
 section.recurring-billing ul li{padding-left: 25px;position: relative;}
 section.recurring-billing ul li:before{position: absolute;left: 0;top: 0px;content: "\f00c";display: block;font-family: 'FontAwesome';font-size: 16px;color: #6e78b4}
 
 .customers-testimonials{margin: 30px 0 0}
 .customers-testimonials h4{font-family: 'proximanovalight';color: #525252;line-height: 120%;margin: 0 0 30px}
-.customers-testimonials p{color: #646464;line-height: 150%;font-size: 16px}
+.customers-testimonials p{color: #646464;line-height: 150%;font-size: 16px;margin: 0 0 20px;}
+.testimonials{padding: 25px 0 0;border-top: 1px solid #dddddd;}
 .logo {
     width: 40px;
     height: 40px;
@@ -102,7 +106,7 @@ section.recurring-billing ul li:before{position: absolute;left: 0;top: 0px;conte
 .author-name a{
     font-family: 'proximanova-semibold';color: #06c587;font-size: 14px;line-height: 160%;
 }
-
+.customers-testimonials h3{font-size: 26px;font-family: 'proximanovalight';color: #525252;line-height: 120%;margin: 0 0 25px;}
 .testimonials-head {
     clear: both;
     overflow: auto;
