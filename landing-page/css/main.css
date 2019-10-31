@@ -27,8 +27,10 @@ input,button,textarea,select{font:inherit}
 @font-face {font-family: 'proxima-nova-extrabold';src: url('../fonts/proxima-nova-extrabold.eot');src: url('../fonts/proxima-nova-extrabold.eot?#iefix') format('embedded-opentype'),url('../fonts/proxima-nova-extrabold.woff2') format('woff2'),url('../fonts/ProximaNova-Extrabld.svg#ProximaNova-Extrabld') format('svg'),url('../fonts/ProximaNova-Extrabld.ttf') format('truetype'),url('../fonts/ProximaNova-Extrabld.woff') format('woff');font-weight: normal;font-style: normal;}
 @font-face {font-family: 'proximanovalight';src: url('../fonts/proximanovalight.eot');src: url('../fonts/proximanovalight.eot?#iefix') format('embedded-opentype'),url('../fonts/proximanovalight.woff2') format('woff2'),url('../fonts/ProximaNova-Light.svg#ProximaNova-Light') format('svg'),url('../fonts/ProximaNova-Light.ttf') format('truetype'),url('../fonts/ProximaNova-Light.woff') format('woff');font-weight: normal;font-style: normal;}
 @font-face {font-family: 'proximanova-semibold';src: url('../fonts/proximanova-semibold-webfont.eot');src: url('../fonts/proximanova-semibold-webfont.eot?#iefix') format('embedded-opentype'),url('../fonts/proximanova-semibold-webfont.woff2') format('woff2'),url('../fonts/ProximaNova-Semibold.svg#ProximaNova-Semibold') format('svg'),url('../fonts/ProximaNova-Semibold.ttf') format('truetype'),url('../fonts/ProximaNova-Semibold.woff') format('woff');font-weight: normal;font-style: normal;}
-@font-face {font-family: 'ProximaNova-LightIt';src: url('../fonts/ProximaNova-LightIt.eot');src: url('../fonts/ProximaNova-LightIt.eot?#iefix') format('embedded-opentype'),url('../fonts/ProximaNova-LightIt.svg#ProximaNova-LightIt') format('svg'),url('../fonts/ProximaNova-LightIt.ttf') format('truetype'),url('../fonts/ProximaNova-LightIt.woff') format('woff'),url('../fonts/ProximaNova-LightIt.woff2') format('woff2');font-weight: normal;font-style: normal;}
 @font-face {font-family: 'proximanovaregular';src: url('../fonts/ProximaNova-Regular.eot');src: url('../fonts/ProximaNova-Regular.eot?#iefix') format('embedded-opentype'),url('../fonts/ProximaNova-Regular.woff2') format('woff2'),url('../fonts/ProximaNova-Regular.svg#ProximaNova-Regular') format('svg'),url('../fonts/ProximaNova-Regular.ttf') format('truetype'),url('../fonts/ProximaNova-Regular.woff') format('woff');font-weight: normal;font-style: normal;}
+@font-face {font-family: 'ProximaNova-SemiboldIt';src: url('../fonts/ProximaNova-SemiboldIt.eot');src: url('../fonts/ProximaNova-SemiboldIt.eot?#iefix') format('embedded-opentype'),url('../fonts/ProximaNova-SemiboldIt.svg#ProximaNova-SemiboldIt') format('svg'),url('../fonts/ProximaNova-SemiboldIt.ttf') format('truetype'),url('../fonts/ProximaNova-SemiboldIt.woff') format('woff'),url('../fonts/ProximaNova-SemiboldIt.woff2') format('woff2');font-weight: normal;font-style: normal;}
+
+
 /*fonts*/
 
 /* subscription section*/
@@ -49,9 +51,9 @@ section.red-band {background: #fb4b4b;padding: 20px;}
 section.red-band h3{color: #f6f8fc;color: #fff;text-align: center;padding: 0 15px;font-size: 21px;}
 .steps-slider {width: 100%;overflow: auto;margin: 25px 0 0;}
 .steps-slider ul {list-style: none;margin: 0 auto;padding: 0;display: table;overflow-x: scroll;width: 553px;}
-.steps-slider ul li {display: inline-block;float: left;background: transparent;border: 1px solid #f6f8fc;border-radius: 25px;font-size: 19px;color: rgba(246, 248, 252, .8);padding: 10px 25px;font-family: 'proximanovalight';position: relative;margin-right: 25px;}
+.steps-slider ul li {display: inline-block;float: left;background: transparent;border: 1px solid #f6f8fc;border-radius: 25px;font-size: 19px;color: rgba(246, 248, 252, .8);padding: 10px 25px;font-family: 'ProximaNova-SemiboldIt';position: relative;margin-right: 25px;}
 .steps-slider ul li:after {content: '';position: absolute;border-top: 1px dashed #f6f8fc;width: 15px;display: block;right: -20px;    top: 23px;}
-.steps-slider ul li:last-child {background: #f6f8fc;border: 1px solid #f6f8fc;border-radius: 25px;font-size: 19px;color: #0f334f;padding: 10px 25px;font-family: 'proximanova-semibold';margin-right: 0px;}
+.steps-slider ul li:last-child {background: #f6f8fc;border: 1px solid #f6f8fc;border-radius: 25px;font-size: 19px;color: #0f334f;padding: 10px 25px;font-family: 'ProximaNova-SemiboldIt';margin-right: 0px;}
 .steps-slider ul li:last-child:after {display: none;}
 /*red band */
 
