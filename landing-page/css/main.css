@@ -40,17 +40,17 @@ section.subscription p{color: #525252;font-family: 'proximanovalight';font-size:
 .icon-row {padding: 35px 15px;overflow: auto;clear: both;}
 .icon-row ul {list-style: none;margin: 0 auto;padding: 0;text-align: center;display: table;}
 .icon-row ul li{display: inline-block;float: left;width: 95px}
-.icon-row ul li:first-child{font-family: 'proximanova-semibold';font-size: 15px;color: #8AB5D5;text-transform: uppercase;padding: 35px 0 0;}	
+.icon-row ul li:first-child{font-family: 'ProximaNova-SemiboldIt';font-size: 15px;color: #8AB5D5;text-transform: uppercase;padding: 35px 0 0;}	
 .icon-row ul li img{width: 95px;height: 95px;}	
-.icon-row ul li:last-child{font-family: 'proximanova-semibold';font-size: 15px;color: #CFA622;text-transform: uppercase;padding: 30px 0 0;}	
+.icon-row ul li:last-child{font-family: 'ProximaNova-SemiboldIt';font-size: 15px;color: #CFA622;text-transform: uppercase;padding: 30px 0 0;}	
 button.btn.signup {background: #06c587;box-shadow: inset 0px -4px #04af78;font-family: 'proximanova-semibold';font-size: 18px;color: #fff;text-shadow: 0px -2px rgba(0,0,0,.10);text-transform: uppercase;display: inline-block;padding: 15px 25px;margin: 15px 0 0;}
 /* subscription section*/
 
 /*red band */
-section.red-band {background: #fb4b4b;padding: 20px;}
+section.red-band {background: #fb4b4b;padding: 50px 20px;overflow: hidden;}
 section.red-band h3{color: #f6f8fc;color: #fff;text-align: center;padding: 0 15px;font-size: 21px;}
 .steps-slider {width: 100%;overflow: auto;margin: 25px 0 0;}
-.steps-slider ul {list-style: none;margin: 0 auto;padding: 0;display: table;overflow-x: scroll;width: 553px;}
+.steps-slider ul {list-style: none;margin: 0 auto;padding: 0;display: table;overflow-x: scroll;width: 580px;}
 .steps-slider ul li {display: inline-block;float: left;background: transparent;border: 1px solid #f6f8fc;border-radius: 25px;font-size: 19px;color: rgba(246, 248, 252, .8);padding: 10px 25px;font-family: 'ProximaNova-SemiboldIt';position: relative;margin-right: 25px;}
 .steps-slider ul li:after {content: '';position: absolute;border-top: 1px dashed #f6f8fc;width: 15px;display: block;right: -20px;    top: 23px;}
 .steps-slider ul li:last-child {background: #f6f8fc;border: 1px solid #f6f8fc;border-radius: 25px;font-size: 19px;color: #0f334f;padding: 10px 25px;font-family: 'ProximaNova-SemiboldIt';margin-right: 0px;}
@@ -83,7 +83,7 @@ section.recurring-billing ul li:before{position: absolute;left: 0;top: 0px;conte
 section.patner-logo{padding: 50px 0;background:#27292f; }
 section.patner-logo ul{list-style: none;margin: 0;padding: 0;}
 section.patner-logo ul li{width: 50%;float: left;padding: 15px;    min-height: auto;}
-section.patner-logo ul li img {width: auto;height: 46px;margin: 0 auto;text-align: center;}
+section.patner-logo ul li img {width: auto;height: 40px;margin: 0 auto;text-align: center;}
 /*partner logo*/
 
 /*footer*/
@@ -98,7 +98,7 @@ section.footer ul li img{text-align: center;margin: 0 auto;width: 100px}
 
 /* Larger than mobile */
 @media (min-width: 400px) {
-
+section.subscription h1{padding: 0 50px;}	
 section.patner-logo ul li{min-height: auto;}
 section.recurring-billing h2 {font-size: 32px;}
 section.red-band h3 {font-size: 24px;}
@@ -116,11 +116,8 @@ section.patner-logo ul li img {width: auto;height: 46px;margin: 0 auto;text-alig
 @media (min-width: 550px) {}
 
 /* Larger than tablet */
-@media (min-width: 750px) {}
-
-/* Larger than desktop */
-@media (min-width: 1000px) {
-    section.subscription p {padding: 0 300px;}
+@media (min-width: 750px) {
+	section.subscription h1 {padding: 0 25px;}
     .icon-row ul li img {width: 229px;height: 207px;}
     .icon-row ul li:first-child {font-size: 20px;padding: 100px 20px 0;text-align: right;}
     .icon-row ul li {width: 229px;}
@@ -137,9 +134,17 @@ section.patner-logo ul li img {width: auto;height: 46px;margin: 0 auto;text-alig
     .customers-testimonials p {margin: 30px 0 20px;display: block;clear: both;}
     section.checkout{background: #0d304d;padding: 0 0 100px}
     section.patner-logo ul{display: table;margin: 0 auto}
-    section.patner-logo ul li {min-height: auto;width: auto;padding: 0 15px;}
+    section.patner-logo ul li {min-height: auto;width: auto;padding: 0 10px;}
     section.footer ul {display: table;margin: 0 auto;}
     section.footer ul li {font-size: 12px;padding: 10px 20px;float: left;}
+
+}
+
+/* Larger than desktop */
+@media (min-width: 1000px) {
+    section.subscription p {padding: 0 300px;}
+    section.patner-logo ul li {min-height: auto;width: auto;padding: 0 15px;}
+
 
 }
 
